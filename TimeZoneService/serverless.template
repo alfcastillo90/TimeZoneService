@@ -8,7 +8,7 @@
     "Get" : {
       "Type" : "AWS::Serverless::Function",
       "Properties": {
-        "Handler": "TimeZoneService::TimeZoneService.Functions::Get",
+        "Handler": "TimeZoneService::TimeZoneService.Functions::GetAllTimeZones",
         "Runtime": "dotnetcore2.1",
         "CodeUri": "",
         "MemorySize": 256,
@@ -19,7 +19,7 @@
           "PutResource": {
             "Type": "Api",
             "Properties": {
-              "Path": "/",
+              "Path": "/zones",
               "Method": "GET"
             }
           }
@@ -30,9 +30,5 @@
   },
 
   "Outputs" : {
-    "ApiURL" : {
-        "Description" : "API endpoint URL for Prod environment",
-        "Value" : { "Fn::Sub" : "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/" }
-    }
   }
 }
