@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeZoneService", "TimeZoneService\TimeZoneService.csproj", "{CC4CC0F9-7C9B-4EDB-A2A0-DDE369B0A83E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC4CC0F9-7C9B-4EDB-A2A0-DDE369B0A83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4CC0F9-7C9B-4EDB-A2A0-DDE369B0A83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4CC0F9-7C9B-4EDB-A2A0-DDE369B0A83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4CC0F9-7C9B-4EDB-A2A0-DDE369B0A83E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50E4F858-F956-499C-8E60-E276EC44BEE9}
+	EndGlobalSection
+EndGlobal
